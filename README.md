@@ -11,20 +11,20 @@ How to set up the Frontend
  4. npm run dev(To run the Frontend )
 
 How to set up the Backend  Server 
- 1.npm init -y 
- 2.npm install
- 3.npm i express mongodb mongoose 
- 4.npm i nodemon
- 5.npm i cors
- 6.npm dotenv 
- 7.In package.json file in scripts has to change 
- "start" : "node filename"  (here the filename refers to main file )
- "dev"   : "nodemon filename"
-  To run the code "npm start"
-  For testing or development "npm run dev"
-  or By without changing the scripts 
-  To run server is "npm node filename.js"
-  To run server is "npx nodemon filename.js"
+1.npm init -y 
+2.npm install
+3.npm i express mongodb mongoose 
+4.npm i nodemon
+5.npm i cors
+6.npm dotenv 
+7.In package.json file in scripts has to change 
+"start" : "node filename"  (here the filename refers to main file )
+"dev"   : "nodemon filename"
+8.To run the code "npm start"
+9.For testing or development "npm run dev"
+   or By without changing the scripts 
+   To run server is "npm node filename.js"
+   To run server is "npx nodemon filename.js"
 
 
   It has two has Branches main  and backend branch 
