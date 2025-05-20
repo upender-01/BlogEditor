@@ -1,34 +1,63 @@
-
 # 📝 Full Stack Blog Editor Application
 
 A full-stack web application that enables users to write, auto-save, and publish blog posts. This project demonstrates the integration of React (Vite) on the frontend with a Node.js + Express.js backend and MongoDB database, following modern development practices.
+
 ---
-How to set up the Frontend 
- Has To run the commands in the vs code Terminal
- 1. npm vite@latest my react-app init -y 
- 2. npm install
- 3. cd my create-app
- 4. npm run dev(To run the Frontend )
+## 🔧 How to Set Up the Frontend
 
-How to set up the Backend  Server 
-1.npm init -y 
-2.npm install
-3.npm i express mongodb mongoose 
-4.npm i nodemon
-5.npm i cors
-6.npm dotenv 
-7.In package.json file in scripts has to change 
-"start" : "node filename"  (here the filename refers to main file )
-"dev"   : "nodemon filename"
-8.To run the code "npm start"
-9.For testing or development "npm run dev"
-   or By without changing the scripts 
-   To run server is "npm node filename.js"
-   To run server is "npx nodemon filename.js"
+These commands should be run in the VS Code terminal:
 
+1. `npm create vite@latest my-react-app`
+2. `cd my-react-app`
+3. `npm install`
+4. `npm run dev` (To run the frontend)
 
-  It has two has Branches main  and backend branch 
-Here the Backend branch contains the backend code and  main branch contains the frontend code 
+> ⚠️ Note: Step 1 was corrected to use the correct Vite scaffolding syntax.
+
+---
+
+## 🔧 How to Set Up the Backend Server
+
+1. `npm init -y`  
+2. `npm install`  
+3. `npm i express mongodb mongoose`  
+4. `npm i nodemon`  
+5. `npm i cors`  
+6. `npm i dotenv`  
+7. In the `package.json` file, under the `"scripts"` section, add or modify:
+```json
+"start": "node filename.js",
+"dev": "nodemon filename.js"
+```
+*(Replace `filename.js` with your main backend file, e.g., `index.js`)*
+
+8. To run the server in production:
+```bash
+npm start
+```
+
+9. For testing or development:
+```bash
+npm run dev
+```
+
+Or, without modifying the scripts:
+```bash
+node filename.js
+npx nodemon filename.js
+```
+
+---
+
+## 🧭 Branching Strategy
+
+This repository has two branches:
+
+- `main` — Contains the **frontend** code  
+- `backend` — Contains the **backend** code  
+
+---
+
 ## 📂 Project Structure
 
 ```
@@ -81,7 +110,7 @@ Here the Backend branch contains the backend code and  main branch contains the 
 
 ## 📦 Installation & Setup
 
-### 1. Clone the repository
+### 1. Clone the Repository
 ```bash
 git clone https://github.com/your-username/blog-editor-app.git
 cd blog-editor-app
@@ -165,5 +194,3 @@ Content-Type: application/json
 **Bhukya Upender**  
 B.Tech, Electronics and Communication Engineering  
 IIT BHU Varanasi
-
----
